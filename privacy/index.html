@@ -24,7 +24,7 @@
 <li>Upbloom speichert alles, was du eingibst, nur auf deinem iPhone.</li>
 <li>Es gibt kein Konto, keine Cloud, keine Werbung, kein Tracking und keine Analyse-Werkzeuge in der App.</li>
 <li>Wir erhalten deine Eingaben nicht – weder dein Profil noch dein Journal, deine Fotos oder deine Stimmungseinträge.</li>
-<li>Du kannst jederzeit alles exportieren oder löschen.</li>
+<li>Du kannst jederzeit alles exportieren, verschlüsselt sichern oder löschen.</li>
 </ul>
 </div>
 
@@ -41,7 +41,7 @@
 <li>Einstellungen wie Sprache und Erinnerungen.</li>
 </ul>
 <p>Manches davon sind Gesundheitsdaten. Deshalb bleiben sie auf deinem Gerät: Die App überträgt sie weder an uns noch an Dritte, und es gibt keinen Server, an den sie gesendet würden. Die Datenbank und die Fotos sind mit dem Dateischutz von iOS verschlüsselt, solange dein iPhone gesperrt ist, und von iCloud- und Geräte-Backups ausgenommen.</p>
-<p>Das heißt auch: Löschst du die App oder verlierst oder wechselst du dein iPhone, sind diese Daten weg. Wir können sie nicht wiederherstellen, weil wir keine Kopie haben. Wenn du sie behalten möchtest, nutze den Export (Abschnitt 5).</p>
+<p>Das heißt auch: Löschst du die App oder verlierst oder wechselst du dein iPhone, sind diese Daten weg. Wir können sie nicht wiederherstellen, weil wir keine Kopie haben. Wenn du sie behalten möchtest, erstelle eine Sicherung (Abschnitt 5).</p>
 
 <h2>3. Fotos</h2>
 <p>Fotos wählst du über die Fotoauswahl von iOS aus. Upbloom erhält nur die Bilder, die du dort auswählst, und keinen Zugriff auf deine übrige Mediathek. Die App legt eine Kopie in ihrem eigenen, geschützten Ordner ab. Die Kamera nutzt Upbloom nicht.</p>
@@ -49,9 +49,10 @@
 <h2>4. Erinnerungen</h2>
 <p>Erinnerungen sind Mitteilungen, die die App auf deinem iPhone plant – nur, wenn du sie erlaubst. Dafür gibt es keinen Push-Dienst und keinen Server. Du kannst sie in der App oder in den iOS-Einstellungen jederzeit abschalten.</p>
 
-<h2>5. Export und Löschen</h2>
+<h2>5. Export, Sicherung und Löschen</h2>
 <p>Unter „Datenschutz &amp; Daten“ kannst du eine lesbare JSON-Datei mit deinen Daten erstellen (ohne Fotos) und über das Teilen-Menü von iOS weitergeben. Wohin du sie sendest oder wo du sie speicherst, entscheidest du; ab dann gelten die Bedingungen dieses Ziels.</p>
-<p>„Alle meine Daten löschen“ entfernt alles dauerhaft vom Gerät, einschließlich der Fotos, und bricht geplante Erinnerungen ab. Auch das Löschen der App entfernt alle Daten.</p>
+<p>Unter „Sicherung erstellen“ kannst du außerdem eine Datei mit allem anlegen, auch mit den Fotos. Sie wird auf deinem iPhone mit einem Passwort verschlüsselt, das du selbst wählst (AES-256); ohne dieses Passwort kann niemand sie öffnen, auch wir nicht. Die Datei geht nirgendwohin von selbst: Du entscheidest über das Teilen-Menü, wo sie liegt, etwa in der Dateien-App. Mit „Sicherung wiederherstellen“ liest du sie auf einem iPhone wieder ein; dabei wird ersetzt, was dort in Upbloom gespeichert ist.</p>
+<p>„Alle meine Daten löschen“ entfernt alles dauerhaft vom Gerät, einschließlich der Fotos, und bricht geplante Erinnerungen ab. Auch das Löschen der App entfernt alle Daten. Sicherungsdateien, die du außerhalb der App abgelegt hast, löschst du dort selbst.</p>
 
 <h2>6. Apple: App Store, TestFlight und Absturzberichte</h2>
 <p>Upbloom wird über den App Store von Apple vertrieben, Testversionen über TestFlight. Für Download, Updates und gegebenenfalls Zahlungen ist Apple selbst verantwortlich; es gilt die <a href="https://www.apple.com/legal/privacy/">Datenschutzrichtlinie von Apple</a>.</p>
@@ -88,7 +89,7 @@
 <li>Upbloom keeps everything you enter on your iPhone only.</li>
 <li>There is no account, no cloud, no advertising, no tracking and no analytics tool in the app.</li>
 <li>We do not receive what you enter – not your profile, your journal, your photos or your mood entries.</li>
-<li>You can export or delete everything at any time.</li>
+<li>You can export, back up (encrypted) or delete everything at any time.</li>
 </ul>
 </div>
 
@@ -105,7 +106,7 @@
 <li>settings such as language and reminders.</li>
 </ul>
 <p>Some of this is health data. That is why it stays on your device: the app sends it neither to us nor to anyone else, and there is no server it could be sent to. The database and the photos are encrypted by iOS file protection while your iPhone is locked and are excluded from iCloud and device backups.</p>
-<p>This also means: if you delete the app, or lose or replace your iPhone, this data is gone. We cannot restore it because we have no copy. If you want to keep it, use the export (section 5).</p>
+<p>This also means: if you delete the app, or lose or replace your iPhone, this data is gone. We cannot restore it because we have no copy. If you want to keep it, create a backup (section 5).</p>
 
 <h2>3. Photos</h2>
 <p>You choose photos with the iOS photo picker. Upbloom receives only the pictures you select there and has no access to the rest of your library. The app keeps a copy in its own protected folder. Upbloom does not use the camera.</p>
@@ -113,9 +114,10 @@
 <h2>4. Reminders</h2>
 <p>Reminders are notifications the app schedules on your iPhone – only if you allow them. There is no push service and no server behind them. You can switch them off in the app or in iOS Settings at any time.</p>
 
-<h2>5. Export and deletion</h2>
+<h2>5. Export, backup and deletion</h2>
 <p>Under “Privacy &amp; data” you can create a readable JSON file of your data (without photos) and pass it on through the iOS share sheet. Where you send or store it is up to you; from then on, that destination's terms apply.</p>
-<p>“Delete all my data” permanently removes everything from the device, including photos, and cancels scheduled reminders. Deleting the app also removes all data.</p>
+<p>Under “Create backup” you can also make one file with everything, photos included. It is encrypted on your iPhone with a password you choose (AES-256); without that password nobody can open it, not even us. The file goes nowhere by itself: through the share sheet you decide where it is kept, for example in the Files app. “Restore a backup” reads it back on an iPhone and replaces what Upbloom has stored there.</p>
+<p>“Delete all my data” permanently removes everything from the device, including photos, and cancels scheduled reminders. Deleting the app also removes all data. Backup files you have kept outside the app are yours to delete there.</p>
 
 <h2>6. Apple: App Store, TestFlight and crash reports</h2>
 <p>Upbloom is distributed through Apple's App Store, test versions through TestFlight. Apple is itself responsible for downloads, updates and any payments; <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a> applies.</p>
@@ -152,7 +154,7 @@
 <li>Upbloom хранит всё, что ты вводишь, только на твоём iPhone.</li>
 <li>В приложении нет аккаунта, облака, рекламы, отслеживания и инструментов аналитики.</li>
 <li>Мы не получаем твои данные – ни профиль, ни дневник, ни фотографии, ни записи о настроении.</li>
-<li>Ты можешь в любой момент всё выгрузить или удалить.</li>
+<li>Ты можешь в любой момент всё выгрузить, зашифрованно сохранить или удалить.</li>
 </ul>
 </div>
 
@@ -169,7 +171,7 @@
 <li>настройки, например язык и напоминания.</li>
 </ul>
 <p>Часть этих данных относится к данным о здоровье. Поэтому они остаются на твоём устройстве: приложение не передаёт их ни нам, ни третьим лицам, и нет сервера, на который их можно было бы отправить. База данных и фотографии зашифрованы защитой файлов iOS, пока iPhone заблокирован, и исключены из резервных копий iCloud и устройства.</p>
-<p>Это значит и другое: если ты удалишь приложение, потеряешь или сменишь iPhone, эти данные пропадут. Мы не можем их восстановить, потому что у нас нет копии. Если хочешь их сохранить, воспользуйся выгрузкой (раздел 5).</p>
+<p>Это значит и другое: если ты удалишь приложение, потеряешь или сменишь iPhone, эти данные пропадут. Мы не можем их восстановить, потому что у нас нет копии. Если хочешь их сохранить, создай резервную копию (раздел 5).</p>
 
 <h2>3. Фотографии</h2>
 <p>Фотографии ты выбираешь через стандартный выбор фото в iOS. Upbloom получает только выбранные там снимки и не имеет доступа к остальной медиатеке. Приложение хранит копию в своей защищённой папке. Камеру Upbloom не использует.</p>
@@ -177,9 +179,10 @@
 <h2>4. Напоминания</h2>
 <p>Напоминания – это уведомления, которые приложение планирует на твоём iPhone, и только если ты это разрешишь. Для них нет push-сервиса и нет сервера. Отключить их можно в приложении или в настройках iOS в любой момент.</p>
 
-<h2>5. Выгрузка и удаление</h2>
+<h2>5. Выгрузка, резервная копия и удаление</h2>
 <p>В разделе «Конфиденциальность и данные» можно создать читаемый файл JSON с твоими данными (без фотографий) и передать его через меню «Поделиться» в iOS. Куда ты его отправишь или где сохранишь, решаешь ты; дальше действуют условия этого сервиса.</p>
-<p>«Удалить все мои данные» безвозвратно удаляет всё с устройства, включая фотографии, и отменяет запланированные напоминания. Удаление приложения тоже удаляет все данные.</p>
+<p>В разделе «Создать копию» можно также сделать один файл со всем, включая фотографии. Он шифруется на твоём iPhone паролем, который выбираешь ты (AES-256); без этого пароля его не открыть никому, даже нам. Сам по себе файл никуда не уходит: через меню «Поделиться» ты решаешь, где он будет храниться, например в приложении «Файлы». «Восстановить из копии» загружает его снова на iPhone и заменяет то, что хранится там в Upbloom.</p>
+<p>«Удалить все мои данные» безвозвратно удаляет всё с устройства, включая фотографии, и отменяет запланированные напоминания. Удаление приложения тоже удаляет все данные. Файлы копий, которые ты сохранила вне приложения, удаляешь там сама.</p>
 
 <h2>6. Apple: App Store, TestFlight и отчёты о сбоях</h2>
 <p>Upbloom распространяется через App Store компании Apple, тестовые версии – через TestFlight. За загрузку, обновления и возможные платежи отвечает сама Apple; действует <a href="https://www.apple.com/legal/privacy/">политика конфиденциальности Apple</a>.</p>
