@@ -1,0 +1,35 @@
+/* Upbloom legal pages. Colours are the app's own (Theme.swift): dark, warm, one accent. */
+:root{--bg:#171219;--card:#211A26;--ink:#FFFFFF;--text:#C9C4CA;--muted:#9D93A3;--accent:#FC8BA9;--hair:#352C3C}
+*{box-sizing:border-box}
+html{background:var(--bg);-webkit-text-size-adjust:100%;text-size-adjust:100%;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+body[data-lang="de"] [lang]:not([lang="de"]),
+body[data-lang="en"] [lang]:not([lang="en"]),
+body[data-lang="ru"] [lang]:not([lang="ru"]){display:none}
+.wrap{max-width:680px;margin:0 auto;padding:max(12px,env(safe-area-inset-top)) max(20px,env(safe-area-inset-right)) calc(48px + env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left))}
+a{color:var(--accent)}
+p{margin:0 0 12px}
+strong{color:var(--ink)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--hair);margin:0 0 32px}
+.brand{color:var(--ink);text-decoration:none;font-size:20px;font-weight:600;letter-spacing:.01em}
+.langtoggle{display:flex;gap:4px}
+.langtoggle button{font:inherit;font-size:14px;color:var(--muted);background:none;border:1px solid transparent;border-radius:12px;padding:8px 12px;cursor:pointer}
+.langtoggle button[aria-pressed="true"]{color:var(--ink);border-color:var(--hair);background:var(--card)}
+h1{color:var(--ink);font-size:clamp(28px,7.5vw,36px);line-height:1.15;letter-spacing:-.015em;margin:0 0 8px}
+h2{color:var(--ink);font-size:18px;line-height:1.35;margin:32px 0 8px}
+.updated{color:var(--muted);font-size:14px;margin:0 0 24px}
+ul{margin:0 0 12px;padding-left:1.2em}
+li{margin:0 0 8px}
+.card{background:var(--card);border:1px solid var(--hair);border-radius:20px;padding:24px;margin:0 0 24px}
+.card>:last-child{margin-bottom:0}
+.docs{list-style:none;padding:0;border-top:1px solid var(--hair)}
+.docs li{margin:0;border-bottom:1px solid var(--hair)}
+.docs a{display:block;padding:16px 0;color:var(--ink);text-decoration:none}
+.docs span.sub{display:block;color:var(--muted);font-size:14px}
+dl{margin:0}
+dt{font-size:14px;color:var(--muted);margin:16px 0 2px}
+dt:first-child{margin-top:0}
+dd{margin:0}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--hair);color:var(--muted);font-size:14px;text-align:center}
+footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 24px;margin:0 0 8px}
+footer a{color:var(--muted);padding:8px 0}
